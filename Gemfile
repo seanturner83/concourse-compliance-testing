@@ -2,7 +2,7 @@
 source "https://rubygems.org"
 
 gem 'aws-sdk'
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 
 group :development, :test do
   gem 'minitest'
